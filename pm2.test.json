@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "github_node_koa2_test",
+      "cwd": "./",
+      "script": "npm",
+      "args": "run env-test",
+      "log_file": "./logs/test/app.log",
+      "out_file": "./logs/test/output.log",
+      "error_file": "./logs/test/error.log",
+      "pid_file": "./logs/test/pid.pid",
+      "watch": [
+        "bin",
+        "config",
+        "src"
+      ],
+      "exec_interpreter": "node"
+    }
+  ]
+}

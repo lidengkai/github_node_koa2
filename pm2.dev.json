@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "github_node_koa2_dev",
+      "cwd": "./",
+      "script": "npm",
+      "args": "run env-dev",
+      "log_file": "./logs/dev/app.log",
+      "out_file": "./logs/dev/output.log",
+      "error_file": "./logs/dev/error.log",
+      "pid_file": "./logs/dev/pid.pid",
+      "watch": [
+        "bin",
+        "config",
+        "src"
+      ],
+      "exec_interpreter": "node"
+    }
+  ]
+}

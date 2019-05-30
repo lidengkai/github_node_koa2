@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "github_node_koa2_prod",
+      "cwd": "./",
+      "script": "npm",
+      "args": "run env-prod",
+      "log_file": "./logs/prod/app.log",
+      "out_file": "./logs/prod/output.log",
+      "error_file": "./logs/prod/error.log",
+      "pid_file": "./logs/prod/pid.pid",
+      "watch": [
+        "bin",
+        "config",
+        "src"
+      ],
+      "exec_interpreter": "node"
+    }
+  ]
+}
